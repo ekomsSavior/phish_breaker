@@ -21,7 +21,7 @@ Twitter Platform shortlink in SMS phishing
 
 https://t.co/Zl1SIkqqh2j
 
-reveal the real domain unshorten_and_extract.py 
+reveal the real domain with unshorten_and_extract.py 
 
 ---
 
