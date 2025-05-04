@@ -11,6 +11,23 @@
 
 ---
 
+#  Example: Shortened Link
+
+https://s.id/advertising_support_policy_help_contact_39574411/89247346/15424
+
+ Unwrap with: unshorten_and_extract.py
+
+---
+
+#  Example: Google Bucket Link with File
+
+https://storage.googleapis.com/cx0wc21w2c1wc2xw1cw/rmdcr777.html
+
+ Sweep with: bucket_sweeper.py
+
+
+---
+
 ##  Recommended Workflow
 
 1. `unshorten_and_extract.py` → Unwrap shortlinks, extract domain, path, and scrape hidden links  
