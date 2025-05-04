@@ -5,7 +5,7 @@
 ## Tools Included
 
 - **unshorten_and_extract.py** → Expand shortlinks, extract domains, extract path, detect hidden domains in page body, and save detailed reports  
-- **bucket_sweeper.py** → List `.html` phishing files in Google Cloud buckets  
+- **bucket_sweeper.py** → Sweep Google Cloud buckets for live phishing files, extract hidden domains, and document forensic evidence.  
 - **target_recon.py** → Resolve IP, run WHOIS, Nmap, and headers scan  
 - **scanner.py** → Collect WHOIS, DNS, and abuse contact info  
 - **deep_recon.py** → Perform full forensic scan (redirects, SSL, forms, metadata, Shodan, VirusTotal, DIRB)
@@ -50,7 +50,8 @@ You can stop after step 3 for a quick sweep, or run all tools for a full forensi
 Run any tool directly
 ```bash
 python3 unshorten_and_extract.py
-python3 bucket_sweeper.py
+python3 bucket_sweeper.py                  #or
+python3 bucket_sweeper.py --wordlist mylist.txt
 python3 target_recon.py
 python3 scanner.py
 python3 deep_recon.py
@@ -59,6 +60,19 @@ python3 deep_recon.py
 All `.txt` reports will be saved inside the `reports/` folder with timestamps for easy case tracking.
 
 ---
+#### Tips
+
+IN BUCKET SWEEPER-
+
+ Always include the **trailing slash** if you want it to sweep like a folder
+```
+https://storage.googleapis.com/examplebucket/
+```
+
+You can also target a specific file
+```
+https://storage.googleapis.com/examplebucket/rmdc77.html
+```
 
 ## DISCLAIMER 
 
