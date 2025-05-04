@@ -13,15 +13,18 @@
 
 #  Example: Shortened Link
 
-"https://s.id/advertising_sort_policy_contact_39574911/89247116/15424"
+Third-party shortener/Public shortlink (s.id, bit.ly, tinyurl)
 
- Unwrap with: unshorten_and_extract.py
+https://s.id/advertising_sort_policy_contact_39574911/89247116/15424
+ 
+Twitter Platform shortlink in SMS phishing
 
+https://t.co/Zl1SIkqqh2j
 ---
 
 #  Example: Google Bucket Link with File
 
-"https://storage.googleapis.com/cx0kk2cc1w2c1wc2xw1cw/rmPc53277.html"
+https://storage.googleapis.com/cx0kk2cc1w2c1wc2xw1cw/rmPc53277.html
 
  Sweep with: bucket_sweeper.py
 
