@@ -6,7 +6,6 @@
 
 - **unshorten_and_extract.py** → Expand shortlinks, extract domains, extract path, detect hidden domains in page body, and save detailed reports  
 - **bucket_sweeper.py** → Sweep Google Cloud buckets for live phishing files, extract hidden domains, and document forensic evidence.  
-- **target_recon.py** → Resolve IP, run WHOIS, Nmap, and headers scan  
 - **scanner.py** → Collect WHOIS, DNS, and abuse contact info  
 - **deep_recon.py** → Perform full forensic scan (redirects, SSL, forms, metadata, Shodan, VirusTotal, DIRB)
 
@@ -16,9 +15,8 @@
 
 1. `unshorten_and_extract.py` → Unwrap shortlinks, extract domain, path, and scrape hidden links  
 2. `bucket_sweeper.py` → Sweep Google buckets for `.html` phishing files  
-3. `target_recon.py` → Resolve + scan target domain and IP  
-4. `scanner.py` → Get registrar + abuse contact details and links for reporting phishing. 
-5. `deep_recon.py` → Perform deep forensic analysis (redirects, SSL, forms, metadata, Shodan, VirusTotal)
+3. `scanner.py` → Get registrar + abuse contact details and links for reporting phishing. 
+4. `deep_recon.py` → Perform deep forensic analysis (redirects, SSL, forms, metadata, Shodan, VirusTotal)
 
 You can stop after step 3 for a quick sweep, or run all tools for a full forensic report.
 
