@@ -21,6 +21,8 @@ Twitter Platform shortlink in SMS phishing
 
 https://t.co/Zl1SIkqqh2j
 
+reveal the real domain unshorten_and_extract.py 
+
 ---
 
 #  Example: Google Bucket Link with File
