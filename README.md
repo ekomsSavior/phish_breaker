@@ -13,7 +13,7 @@
 
 #  Example: Shortened Link
 
-(https://s.id/advertising_sort_policy_help_contact_39574911/89247116/15424)
+"https://s.id/advertising_sort_policy_contact_39574911/89247116/15424"
 
  Unwrap with: unshorten_and_extract.py
 
@@ -21,7 +21,7 @@
 
 #  Example: Google Bucket Link with File
 
-(https://storage.googleapis.com/cx0kk21w2c1wc2xw1cw/rmc77.html)
+"https://storage.googleapis.com/cx0kk2cc1w2c1wc2xw1cw/rmPc53277.html"
 
  Sweep with: bucket_sweeper.py
 
