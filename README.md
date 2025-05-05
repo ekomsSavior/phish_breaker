@@ -44,7 +44,7 @@ Sweep with: `bucket_sweeper.py`
 2. `bucket_sweeper.py` → Sweep Google buckets for `.html` phishing files  
 3. `ultra_recon.py` → Perform deep forensic analysis (WHOIS, abuse, headers, SSL, forms, metadata, Shodan, VirusTotal, Nmap, DIRB, reporting links)
 
-You can stop after step 2 for a fast sweep or run all the way through for a full forensic report.
+You can use all of these tools or just one of them. every phishing link is different so workflow will chage with every new case you work on.
 
 BONUS: go over to PHISH_HUNTER_PRO and have fun with the disruption tools over there xo 
 
