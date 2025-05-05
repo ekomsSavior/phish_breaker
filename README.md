@@ -6,7 +6,7 @@
 
 - **unshorten_and_extract.py** → Expand shortlinks, extract domains, extract path, detect hidden domains in page body, and save detailed reports  
 - **bucket_sweeper.py** → Sweep Google Cloud buckets for live phishing files, extract hidden domains, and document forensic evidence.  
-- **ultra_recon.py** → Perform combined WHOIS, DNS, SSL, headers, forms, metadata, Shodan, VirusTotal, Nmap, DIRB, and abuse contact collection — full forensic recon in one run.
+- **ultra_recon.py** → Perform combined WHOIS, DNS, SSL, headers, forms, metadata, decode_base64, Shodan, VirusTotal, Nmap, DIRB, and abuse contact collection — full forensic recon in one run.
 
 ---
 
